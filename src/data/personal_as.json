@@ -1,0 +1,125 @@
+{
+  "name": "দেবাশীষ বৰদলৈ",
+  "email": "debashishbordoloi007@gmail.com",
+  "phone": "+91-936588210",
+  "location": "গুৱাহাটী, অসম, ভাৰত",
+  "roles": [
+    "এছ ডি এণ্ড এ ইঞ্জিনিয়াৰ আকাংক্ষী",
+    "নেটৱৰ্ক আৰু ডিপ্লয়মেণ্ট",
+    "ছিকিউৰিটি আৰু বেকএণ্ড"
+  ],
+  "about": [
+    "এণ্ট্ৰি-লেভেল ইঞ্জিনিয়াৰ যাৰ ছিষ্টেম বিশ্লেষণ, নেটৱৰ্কিংৰ মৌলিক জ্ঞান আৰু কাৰিকৰী ডিপ্লয়মেণ্ট ৱৰ্কফ্ল'ৰ ওপৰত সুদৃঢ় ভেটি আছে।",
+    "ছিকিউৰিটি ৰিচাৰ্ছ আৰু ফুল-ষ্টেক ডেভেলপমেণ্টৰ ব্যৱহাৰিক কামৰ জৰিয়তে পৰীক্ষণ, ত্ৰুটি নিবাৰণ আৰু কাৰিকৰী কামৰ সমন্বয় সাধনৰ অভিজ্ঞতা আছে।",
+    "ফিল্ড-ড্ৰাইভেন পৰিৱেশত এণ্টাৰপ্ৰাইজ সেৱা প্ৰদান, ইনষ্টলেচন আৰু নেটৱৰ্ক অপাৰেচনত অৱদান আগবঢ়াব বিচাৰোঁ।"
+  ],
+  "skills": {
+    "Networking & Systems": "বেচিক নেটৱৰ্কিং, HTTP প্ৰটোকল এনালাইচিছ, Linux CLI, ছিষ্টেম মনিটৰিং",
+    "Deployment & Testing": "এপ্লিকেচন টেষ্টিং, ডিবাগিং, ছিষ্টেম ভেলিডেচন, ভালনাৰেবিলাটি এছেছমেণ্ট",
+    "Security": "OWASP Top 10, IDOR, XSS, SSRF, CSRF, ৰিকনাইচেন্স",
+    "Development": "MERN ষ্টেক, REST APIs, বেকএণ্ড ছিষ্টেম",
+    "Tools": "Git, Postman, Burp Suite",
+    "Cloud": "AWS (S3), GCP",
+    "Other": "টিম কোঅৰ্ডিনেচন, কাৰিকৰী নথিকৰণ, AI-আধাৰিত ডেভেলপমেণ্ট"
+  },
+  "passion": [
+    "ছিষ্টেম এনালাইচিছ",
+    "ছিকিউৰিটি ৰিচাৰ্ছ",
+    "ডিপ্লয়মেণ্ট ৱৰ্কফ্ল'"
+  ],
+  "highlights": [
+    {
+      "text": "Bugcrowd আৰু HackerOne ত ছিকিউৰিটি ৰিচাৰ্ছাৰ"
+    },
+    {
+      "text": "CNCF গুৱাহাটীত ফুল ষ্টেক ডেভেলপাৰ"
+    },
+    {
+      "text": "OWASP ফাউণ্ডেচনৰ চেপ্টাৰ লিডাৰ"
+    },
+    {
+      "text": "API পেনেট্ৰেচন টেষ্টিং - APIsec University",
+      "url": "https://www.credly.com/badges/d82eee33-702d-4f44-87bf-c2e5d8b48051/linked_in_profile"
+    },
+    {
+      "text": "এথিকেল হেকিং এছেনচিয়েলছ - EC-Council",
+      "url": "https://codered.eccouncil.org/certificate/7a83121e-1934-4fa7-92e1-48c18337c573"
+    },
+    {
+      "text": "নেটৱৰ্ক ডিফেন্স এছেনচিয়েলছ - EC-Council",
+      "url": "https://codered.eccouncil.org/certificate/ff925348-d332-46be-9f2d-f4f2758bbeeb?logged=true"
+    },
+    {
+      "text": "SQL আৰু ৰিলেচনেল ডাটাবেচ 101 - IBM (Big Data University)"
+    }
+  ],
+  "education": [
+    {
+      "degree": "কম্পিউটাৰ বিজ্ঞানত এম.টেক",
+      "institution": "ৰাজীৱ গান্ধী বিশ্ববিদ্যালয়, অৰুণাচল প্ৰদেশ",
+      "year": "২০২৫ - বৰ্তমান"
+    },
+    {
+      "degree": "মাষ্টাৰ অৱ কম্পিউটাৰ এপ্লিকেচনছ (MCA)",
+      "institution": "ৰাজীৱ গান্ধী বিশ্ববিদ্যালয়",
+      "score": "চি.জি.পি.এ: ৭.৮০",
+      "year": "২০২৩ - ২০২৩"
+    },
+    {
+      "degree": "বেচেলৰ অৱ কম্পিউটাৰ এপ্লিকেচনছ (CTIS)",
+      "institution": "অসম ডাউন টাউন বিশ্ববিদ্যালয়",
+      "score": "চি.জি.পি.এ: ৮.০৭",
+      "year": "২০২০ - ২০২৩"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Adi Voice Project",
+      "description": "আদি ভইচ প্ৰজেক্টৰ বাবে নিৰ্মিত এটা নিৰ্দিষ্ট স্পীচ কৰ্পাছ সংগ্ৰহ প্লেটফৰ্ম। এই ফুল-ষ্টেক ৱেব এপ্লিকেচনে স্থানীয় স্পীচ ডাটাছেটসমূহ সংগ্ৰহ আৰু পৰ্যালোচনা কৰে।",
+      "tags": ["TypeScript", "Next.js", "Full-Stack"],
+      "url": "https://github.com/d43ash1sh/Adi-Voice-Project"
+    },
+    {
+      "title": "AuthHub",
+      "description": "গিটহাবৰ দ্বাৰা পৰিচালিত পৰ্টফলিঅ' ডেচব'ৰ্ড, য'ত OAuth লগইন, ৰিপ'জিটৰী এনালাইটিক্স, আৰু স্বয়ংক্ৰিয় PDF এক্সপৰ্টৰ সুবিধা আছে।",
+      "tags": ["Next.js", "TypeScript", "OAuth"],
+      "url": "https://debashishhub.vercel.app"
+    },
+    {
+      "title": "ClipNinja",
+      "description": "ইউটিউবৰ ভিডিঅ' ছেগমেণ্টসমূহ ছেকেণ্ডৰ ভিতৰতে এক্সট্ৰেক্ট, ট্ৰিম, আৰু ডাউনলোড কৰিবলৈ নিৰ্মিত এটা আধুনিক ৱেব এপ্লিকেচন।",
+      "tags": ["TypeScript", "Web App", "Video"],
+      "url": "https://github.com/d43ash1sh/ClipNinja"
+    },
+    {
+      "title": "Decentralized Storage System",
+      "description": "IPFS আৰু ব্লকচেইন প্ৰযুক্তি ব্যৱহাৰ কৰি নিৰ্মিত গুগল ড্ৰাইভৰ এটা সুৰক্ষিত আৰু বিকেন্দ্ৰীকৃত বিকল্প।",
+      "tags": ["Web3", "IPFS", "Blockchain"],
+      "url": "https://decentralized-storage-system.vercel.app/"
+    },
+    {
+      "title": "SpeedPulse",
+      "description": "সুন্দৰ ভিজুৱেলাইজেচন আৰু বিতং এনালাইটিক্সৰ সৈতে আধুনিক ইণ্টাৰনেট স্পীড টেষ্টিং।",
+      "tags": ["TypeScript", "Web App", "Analytics"],
+      "url": "https://speed-pulse-iota.vercel.app"
+    },
+    {
+      "title": "ADTU Confessions",
+      "description": "অসম ডাউন টাউন বিশ্ববিদ্যালয়ৰ ছাত্ৰ-ছাত্ৰীসকলৰ বাবে এটা নিৰাপদ আৰু আমোদজনক প্লেটফৰ্ম য'ত তেওঁলোকে নিজৰ কাহিনী আৰু অনুভৱ ব্যক্ত কৰিব পাৰে।",
+      "tags": ["TypeScript", "Full-Stack"],
+      "url": "https://github.com/d43ash1sh/ADTU-Confessions"
+    },
+    {
+      "title": "RGU Library Card Generator",
+      "description": "ৰাজীৱ গান্ধী বিশ্ববিদ্যালয়ৰ ছাত্ৰ-ছাত্ৰীসকলৰ বাবে ডিজিটেল লাইব্ৰেৰী মেম্বাৰশ্বিপ কাৰ্ড প্ৰস্তুত কৰা এটা প্ৰকল্প।",
+      "tags": ["TypeScript", "Next.js"],
+      "url": "https://libraryrgu.vercel.app"
+    },
+    {
+      "title": "Subz (Subdomain Enumeration)",
+      "description": "নিৰাপত্তা ভাবুকি বিশ্লেষণ আৰু ছাবডমেইন সংগ্ৰহ কৰাৰ বাবে নিৰ্মিত এটা শক্তিশালী কামাণ্ড-লাইন টুল।",
+      "tags": ["Bash", "Security", "CLI"],
+      "url": "https://github.com/d43ash1sh/subdomain_enumeration"
+    }
+  ]
+}

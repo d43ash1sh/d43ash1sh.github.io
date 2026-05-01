@@ -1,0 +1,125 @@
+{
+  "name": "Debashish Bordoloi",
+  "email": "debashishbordoloi007@gmail.com",
+  "phone": "+91-936588210",
+  "location": "Guwahati, Assam, India",
+  "roles": [
+    "SD&A Engineer Aspirant",
+    "Network & Deployment",
+    "Security & Backend"
+  ],
+  "about": [
+    "Entry-level engineer with strong foundation in system analysis, networking basics, and technical deployment workflows.",
+    "Experienced in testing, troubleshooting, and coordinating technical tasks through hands-on work in security research and full-stack development.",
+    "Seeking to contribute to enterprise service delivery, installation, and network operations in a field-driven environment."
+  ],
+  "skills": {
+    "Networking & Systems": "Basic Networking, HTTP Protocol Analysis, Linux CLI, System Monitoring",
+    "Deployment & Testing": "Application Testing, Debugging, System Validation, Vulnerability Assessment",
+    "Security": "OWASP Top 10, IDOR, XSS, SSRF, CSRF, Reconnaissance",
+    "Development": "MERN Stack, REST APIs, Backend Systems",
+    "Tools": "Git, Postman, Burp Suite",
+    "Cloud": "AWS (S3), GCP",
+    "Other": "Team Coordination, Technical Documentation, AI-assisted Development"
+  },
+  "passion": [
+    "System Analysis",
+    "Security Research",
+    "Deployment Workflows"
+  ],
+  "highlights": [
+    {
+      "text": "Security Researcher at Bugcrowd & HackerOne"
+    },
+    {
+      "text": "Full Stack Developer at CNCF Guwahati"
+    },
+    {
+      "text": "OWASP Chapter Leader for OWASP Foundation"
+    },
+    {
+      "text": "API Penetration Testing - APIsec University",
+      "url": "https://www.credly.com/badges/d82eee33-702d-4f44-87bf-c2e5d8b48051/linked_in_profile"
+    },
+    {
+      "text": "Ethical Hacking Essentials - EC-Council",
+      "url": "https://codered.eccouncil.org/certificate/7a83121e-1934-4fa7-92e1-48c18337c573"
+    },
+    {
+      "text": "Network Defense Essentials - EC-Council",
+      "url": "https://codered.eccouncil.org/certificate/ff925348-d332-46be-9f2d-f4f2758bbeeb?logged=true"
+    },
+    {
+      "text": "SQL and Relational Databases 101 - IBM (Big Data University)"
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech in Computer Science",
+      "institution": "Rajiv Gandhi University, Arunachal Pradesh",
+      "year": "2025 - Present"
+    },
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Rajiv Gandhi University",
+      "score": "CGPA: 7.80",
+      "year": "2023 - 2025"
+    },
+    {
+      "degree": "Bachelor of Computer Applications (CTIS)",
+      "institution": "Assam Down Town University",
+      "score": "CGPA: 8.07",
+      "year": "2020 - 2023"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Adi Voice Project",
+      "description": "A dedicated speech corpus collection platform designed for the Adi Voice Project. This full-stack web application natively collects, aggregates, and reviews localized speech datasets.",
+      "tags": ["TypeScript", "Next.js", "Full-Stack"],
+      "url": "https://github.com/d43ash1sh/Adi-Voice-Project"
+    },
+    {
+      "title": "AuthHub",
+      "description": "GitHub-powered portfolio dashboard with OAuth login, repository analytics, pinned projects, and automated PDF export built using the modern Next.js stack.",
+      "tags": ["Next.js", "TypeScript", "OAuth"],
+      "url": "https://debashishhub.vercel.app"
+    },
+    {
+      "title": "ClipNinja",
+      "description": "A modern web application designed to extract, trim, preview, and download YouTube video segments in seconds using a beautiful, responsive UI.",
+      "tags": ["TypeScript", "Web App", "Video"],
+      "url": "https://github.com/d43ash1sh/ClipNinja"
+    },
+    {
+      "title": "Decentralized Storage System",
+      "description": "An alternative to cloud platforms like Google Drive leveraging the InterPlanetary File System (IPFS) and blockchain technology for enhanced data security.",
+      "tags": ["Web3", "IPFS", "Blockchain"],
+      "url": "https://decentralized-storage-system.vercel.app/"
+    },
+    {
+      "title": "SpeedPulse",
+      "description": "Modern internet speed testing with beautiful visualizations and detailed analytics.",
+      "tags": ["TypeScript", "Web App", "Analytics"],
+      "url": "https://speed-pulse-iota.vercel.app"
+    },
+    {
+      "title": "ADTU Confessions",
+      "description": "An anonymous platform for Assam Down Town University students to share thoughts, stories, and experiences in a fun, safe, and engaging way.",
+      "tags": ["TypeScript", "Full-Stack"],
+      "url": "https://github.com/d43ash1sh/ADTU-Confessions"
+    },
+    {
+      "title": "RGU Library Card Generator",
+      "description": "A digital library membership card generator system for Rajiv Gandhi University students.",
+      "tags": ["TypeScript", "Next.js"],
+      "url": "https://libraryrgu.vercel.app"
+    },
+    {
+      "title": "Subz (Subdomain Enumeration)",
+      "description": "A powerful command-line tool written in Bash for collecting subdomains of a given domain and analyzing potential security threats.",
+      "tags": ["Bash", "Security", "CLI"],
+      "url": "https://github.com/d43ash1sh/subdomain_enumeration"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/in/debashishbordoloi/",
+    "icon": "Linkedin"
+  },
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/d43ash1sh",
+    "icon": "Github"
+  },
+  {
+    "platform": "HackerOne",
+    "url": "https://www.hackerone.com/",
+    "icon": "Shield"
+  },
+  {
+    "platform": "Bugcrowd",
+    "url": "http://bugcrowd.com/",
+    "icon": "Bug"
+  },
+  {
+    "platform": "X",
+    "url": "https://x.com/d43a_io",
+    "icon": "Twitter"
+  }
+]
