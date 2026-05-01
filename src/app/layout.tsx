@@ -8,6 +8,7 @@ import { LanguageProvider } from "@/lib/LanguageContext";
 import { TerminalOverlay } from "@/components/TerminalOverlay";
 import { BugSquasher } from "@/components/BugSquasher";
 import { AIChatbot } from "@/components/AIChatbot";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -51,6 +52,7 @@ export default function RootLayout({
             <AIChatbot />
           </ThemeProvider>
         </LanguageProvider>
+        <Analytics />
       </body>
     </html>
   );
