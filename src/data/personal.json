@@ -1,35 +1,35 @@
 {
   "name": "Debashish Bordoloi",
   "email": "debashishbordoloi007@gmail.com",
-  "phone": "+91-936588210",
+  "phone": "",
   "location": "Guwahati, Assam, India",
   "roles": [
-    "SD&A Engineer Aspirant",
-    "Network & Deployment",
-    "Security & Backend"
+    "Full-Stack Developer",
+    "Application Security Researcher",
+    "M.Tech CSE Researcher"
   ],
   "about": [
-    "Entry-level engineer with strong foundation in system analysis, networking basics, and technical deployment workflows.",
-    "Experienced in testing, troubleshooting, and coordinating technical tasks through hands-on work in security research and full-stack development.",
-    "Seeking to contribute to enterprise service delivery, installation, and network operations in a field-driven environment."
+    "Full-stack developer focused on building secure, practical web applications with modern web technologies.",
+    "Interested in application security, vulnerability assessment, and AI-assisted product development.",
+    "Currently pursuing an M.Tech in Computer Science at Rajiv Gandhi University and building projects that connect software engineering, privacy, and useful real-world workflows."
   ],
   "skills": {
-    "Networking & Systems": "Basic Networking, HTTP Protocol Analysis, Linux CLI, System Monitoring",
-    "Deployment & Testing": "Application Testing, Debugging, System Validation, Vulnerability Assessment",
-    "Security": "OWASP Top 10, IDOR, XSS, SSRF, CSRF, Reconnaissance",
-    "Development": "MERN Stack, REST APIs, Backend Systems",
-    "Tools": "Git, Postman, Burp Suite",
-    "Cloud": "AWS (S3), GCP",
-    "Other": "Team Coordination, Technical Documentation, AI-assisted Development"
+    "Frontend": "React, Next.js, TypeScript, JavaScript, Tailwind CSS",
+    "Backend & APIs": "Node.js, REST APIs, Python, FastAPI",
+    "Databases": "PostgreSQL, Supabase, SQL, SQLite",
+    "Application Security": "OWASP Top 10, XSS, CSRF, SSRF, IDOR, Vulnerability Assessment, Burp Suite",
+    "Tools & Workflow": "Git, GitHub, Postman, Linux CLI, Debugging, Technical Documentation",
+    "Cloud & Deployment": "Vercel, GitHub Pages, AWS S3, Google Cloud Platform",
+    "AI & Research": "AI-assisted Development, Source-grounded AI, Security Research, Research Writing"
   },
   "passion": [
-    "System Analysis",
-    "Security Research",
-    "Deployment Workflows"
+    "Secure Full-Stack Engineering",
+    "Application Security Research",
+    "AI-Assisted Product Development"
   ],
   "highlights": [
     {
-      "text": "Security Researcher at Bugcrowd & HackerOne"
+      "text": "Security Researcher on Bugcrowd and HackerOne"
     },
     {
       "text": "Full Stack Developer at CNCF Guwahati"
@@ -51,6 +51,10 @@
     },
     {
       "text": "SQL and Relational Databases 101 - IBM (Big Data University)"
+    },
+    {
+      "text": "Research paper: Browser-Based Data Leak Prevention System for Secure Web Interactions",
+      "url": "https://doi.org/10.47974/JIOS-1981"
     }
   ],
   "education": [
@@ -74,51 +78,113 @@
   ],
   "projects": [
     {
+      "title": "OrganLink",
+      "description": "Academic healthcare registry and transparent matching research prototype built around secure web architecture, role-based access, deterministic matching, and a SHA-256 hash-chain audit trail. Not for clinical allocation.",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Security"
+      ],
+      "url": "https://organ-link-seven.vercel.app/login"
+    },
+    {
+      "title": "Nya Search (ঞ)",
+      "description": "Assamese-first, regional-language-aware search engine for Assamese, English, Romanized Assamese, and mixed-language queries, with source-grounded AI answers and citations.",
+      "tags": [
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "AI Search"
+      ],
+      "url": "https://nya-search.vercel.app/"
+    },
+    {
+      "title": "CubeCube",
+      "description": "A live web project. Visit the deployed demo to explore its current features.",
+      "tags": [
+        "Web App",
+        "Vercel",
+        "Live Demo"
+      ],
+      "url": "https://cubecube.vercel.app/"
+    },
+    {
       "title": "Adi Voice Project",
-      "description": "A dedicated speech corpus collection platform designed for the Adi Voice Project. This full-stack web application natively collects, aggregates, and reviews localized speech datasets.",
-      "tags": ["TypeScript", "Next.js", "Full-Stack"],
+      "description": "Full-stack speech corpus collection platform designed to collect, aggregate, and review localized Adi-language speech datasets.",
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "Full-Stack"
+      ],
       "url": "https://github.com/d43ash1sh/Adi-Voice-Project"
     },
     {
       "title": "AuthHub",
-      "description": "GitHub-powered portfolio dashboard with OAuth login, repository analytics, pinned projects, and automated PDF export built using the modern Next.js stack.",
-      "tags": ["Next.js", "TypeScript", "OAuth"],
+      "description": "GitHub-powered portfolio dashboard with OAuth login, repository analytics, pinned projects, and automated PDF export.",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "OAuth"
+      ],
       "url": "https://debashishhub.vercel.app"
     },
     {
       "title": "ClipNinja",
-      "description": "A modern web application designed to extract, trim, preview, and download YouTube video segments in seconds using a beautiful, responsive UI.",
-      "tags": ["TypeScript", "Web App", "Video"],
+      "description": "Web application for extracting, trimming, previewing, and downloading YouTube video segments.",
+      "tags": [
+        "TypeScript",
+        "Web App",
+        "Video"
+      ],
       "url": "https://github.com/d43ash1sh/ClipNinja"
     },
     {
       "title": "Decentralized Storage System",
-      "description": "An alternative to cloud platforms like Google Drive leveraging the InterPlanetary File System (IPFS) and blockchain technology for enhanced data security.",
-      "tags": ["Web3", "IPFS", "Blockchain"],
+      "description": "A decentralized storage proof of concept using IPFS and blockchain concepts.",
+      "tags": [
+        "Web3",
+        "IPFS",
+        "Blockchain"
+      ],
       "url": "https://decentralized-storage-system.vercel.app/"
     },
     {
       "title": "SpeedPulse",
-      "description": "Modern internet speed testing with beautiful visualizations and detailed analytics.",
-      "tags": ["TypeScript", "Web App", "Analytics"],
+      "description": "Internet speed testing with visualizations and analytics.",
+      "tags": [
+        "TypeScript",
+        "Web App",
+        "Analytics"
+      ],
       "url": "https://speed-pulse-iota.vercel.app"
     },
     {
       "title": "ADTU Confessions",
-      "description": "An anonymous platform for Assam Down Town University students to share thoughts, stories, and experiences in a fun, safe, and engaging way.",
-      "tags": ["TypeScript", "Full-Stack"],
+      "description": "Anonymous platform for Assam Down Town University students to share stories and experiences.",
+      "tags": [
+        "TypeScript",
+        "Full-Stack"
+      ],
       "url": "https://github.com/d43ash1sh/ADTU-Confessions"
     },
     {
       "title": "RGU Library Card Generator",
-      "description": "A digital library membership card generator system for Rajiv Gandhi University students.",
-      "tags": ["TypeScript", "Next.js"],
+      "description": "Digital library membership card generator for Rajiv Gandhi University students.",
+      "tags": [
+        "TypeScript",
+        "Next.js"
+      ],
       "url": "https://libraryrgu.vercel.app"
     },
     {
       "title": "Subz (Subdomain Enumeration)",
-      "description": "A powerful command-line tool written in Bash for collecting subdomains of a given domain and analyzing potential security threats.",
-      "tags": ["Bash", "Security", "CLI"],
+      "description": "Bash command-line tool for subdomain collection and security reconnaissance.",
+      "tags": [
+        "Bash",
+        "Security",
+        "CLI"
+      ],
       "url": "https://github.com/d43ash1sh/subdomain_enumeration"
     }
   ]

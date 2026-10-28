@@ -15,7 +15,7 @@ export function ProjectsSection() {
   if (!personal.projects || personal.projects.length === 0) return null;
 
   return (
-    <section className="w-full border-b border-border bg-muted/30 py-24">
+    <section id="projects" className="w-full border-b border-border bg-muted/30 py-24">
       <div className="container mx-auto max-w-5xl px-4 md:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -3,15 +3,15 @@ import { ContactSection } from "@/sections/ContactSection";
 import { SocialsSection } from "@/sections/SocialsSection";
 import { ProjectsSection } from "@/sections/ProjectsSection";
 import { AboutSection } from "@/sections/AboutSection";
+import { SkillsSection } from "@/sections/SkillsSection";
 
 export default function Home() {
-  return (
-    <div className="flex flex-col">
-      <HeroSection />
-      <ContactSection />
-      <SocialsSection />
-      <ProjectsSection />
-      <AboutSection />
-    </div>
-  );
+  return <div className="flex flex-col">
+    <HeroSection />
+    <ContactSection />
+    <SocialsSection />
+    <SkillsSection />
+    <ProjectsSection />
+    <AboutSection />
+  </div>;
 }
