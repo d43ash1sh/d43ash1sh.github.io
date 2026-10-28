@@ -1,0 +1,38 @@
+[
+  {
+    "id": "post-1",
+    "title": "Reverse Engineering & System Architecture",
+    "caption": "Deep-diving into administrative architectures, static AST bundle analysis, and client-side route discovery with REA.",
+    "category": "Security Research",
+    "tags": ["#ReverseEngineering", "#AppSec", "#REA"],
+    "date": "October 2026",
+    "url": "https://www.instagram.com/debashishbordoloi007/"
+  },
+  {
+    "id": "post-2",
+    "title": "Autonomous Agent Search Engine",
+    "caption": "Building sovereign web search, Redis URL frontier queues, and pgvector HNSW hybrid reranking.",
+    "category": "AI & Systems",
+    "tags": ["#AI", "#Python", "#FastAPI", "#VectorSearch"],
+    "date": "October 2026",
+    "url": "https://www.instagram.com/debashishbordoloi007/"
+  },
+  {
+    "id": "post-3",
+    "title": "ঞ (Nya) — Regional Language Web Retrieval",
+    "caption": "Preserving indigenous linguistic context with Assamese Unicode normalization and zero-hallucination citation engines.",
+    "category": "Open Source",
+    "tags": ["#Assamese", "#VocalForLocal", "#SearchEngine"],
+    "date": "October 2026",
+    "url": "https://www.instagram.com/debashishbordoloi007/"
+  },
+  {
+    "id": "post-4",
+    "title": "OrganLink & Healthcare Network Security",
+    "caption": "Engineering secure, role-verified donor-recipient matching workflows and resilient healthcare authentication.",
+    "category": "Full Stack",
+    "tags": ["#Nextjs", "#HealthcareTech", "#FullStack"],
+    "date": "September 2026",
+    "url": "https://www.instagram.com/debashishbordoloi007/"
+  }
+]

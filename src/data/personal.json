@@ -1,41 +1,115 @@
 {
   "name": "Debashish Bordoloi",
   "email": "debashishbordoloi007@gmail.com",
-  "phone": "",
   "location": "Guwahati, Assam, India",
   "roles": [
-    "Full-Stack Developer",
-    "Application Security Researcher",
-    "M.Tech CSE Researcher"
+    "Full Stack Developer",
+    "Security Researcher",
+    "AI Systems & Tooling Engineer"
   ],
   "about": [
-    "Full-stack developer focused on building secure, practical web applications with modern web technologies.",
-    "Interested in application security, vulnerability assessment, and AI-assisted product development.",
-    "Currently pursuing an M.Tech in Computer Science at Rajiv Gandhi University and building projects that connect software engineering, privacy, and useful real-world workflows."
+    "Software engineer and security researcher with strong foundations in full-stack architecture, web security testing, and autonomous AI-assisted development workflows.",
+    "Experienced in vulnerability assessment (OWASP Top 10, SSRF defense, authorization flaws), client-side static AST analysis, and distributed search systems.",
+    "Passionate about building regional-first multilingual systems, developer tooling with Model Context Protocol (MCP), and sovereign data retrieval."
   ],
   "skills": {
-    "Frontend": "React, Next.js, TypeScript, JavaScript, Tailwind CSS",
-    "Backend & APIs": "Node.js, REST APIs, Python, FastAPI",
-    "Databases": "PostgreSQL, Supabase, SQL, SQLite",
-    "Application Security": "OWASP Top 10, XSS, CSRF, SSRF, IDOR, Vulnerability Assessment, Burp Suite",
-    "Tools & Workflow": "Git, GitHub, Postman, Linux CLI, Debugging, Technical Documentation",
-    "Cloud & Deployment": "Vercel, GitHub Pages, AWS S3, Google Cloud Platform",
-    "AI & Research": "AI-assisted Development, Source-grounded AI, Security Research, Research Writing"
+    "Languages": ["TypeScript", "JavaScript", "Python", "Bash", "SQL", "C++"],
+    "Frontend": ["React", "Next.js (App Router)", "Tailwind CSS", "Framer Motion", "Three.js"],
+    "Backend & APIs": ["Node.js", "FastAPI", "RESTful APIs", "Next.js API Routes", "Trafilatura"],
+    "Databases & Storage": ["PostgreSQL", "Supabase", "pgvector (HNSW)", "SQLite", "Redis", "IPFS"],
+    "Security & Analysis": ["OWASP Top 10", "Burp Suite", "REA (Reverse Engineer Anything)", "Static AST Decompilation", "SSRF Pre-flight Defense", "API Pentesting"],
+    "Developer Tools & AI": ["Model Context Protocol (MCP)", "Context7 MCP", "Stitch MCP", "Playwright", "Docker", "Git", "Linux CLI"]
   },
-  "passion": [
-    "Secure Full-Stack Engineering",
-    "Application Security Research",
-    "AI-Assisted Product Development"
+  "passions": [
+    "System Architecture",
+    "Security Research & Reverse Engineering",
+    "Autonomous AI Agent Tooling",
+    "Regional Language Technologies"
+  ],
+  "technicalWork": {
+    "rea": {
+      "title": "Administrative Architecture & Reverse Engineering Audit",
+      "subtitle": "Non-Invasive Security Audit of Administrative Surfaces (apssb.online)",
+      "tooling": "REA v6.8.0, Chrome DevTools Protocol (CDP), Static AST Chunk Deconstruction",
+      "summary": "Evidence-backed, non-invasive architectural audit of the administrative system powering apssb.online. Deconstructed client-side route trees and JavaScript bundles to map discovered surfaces, evaluate authentication mechanisms, identify crawler ingestion workflows, and design an enterprise-grade remediation blueprint.",
+      "findings": [
+        "Bifurcated Admin Surface: Public frontend exposes exactly two routes (/admin/current-affairs and /admin/appscce) while exam, test series, and question bank management are completely absent from client bundles.",
+        "Authentication Paradigms: Discovered contrast between ad-hoc symmetric header keys (x-admin-key) and 4-hour HTTP-only session cookies (appscce_admin_session).",
+        "Autonomous News Crawler: Documented an automated Press Information Bureau (PIB) background parsing and deduplication pipeline.",
+        "Security Recommendations: Formulated actionable architectures for Role-Based Access Control (RBAC), multi-factor authentication (MFA), and safe question authoring."
+      ],
+      "status": "Completed Audit & Architectural Analysis"
+    },
+    "agentSearch": {
+      "title": "Agent Search Engine",
+      "subtitle": "Distributed, Agent-Native Crawl, Extraction & Hybrid Retrieval Engine",
+      "tech": "Python 3.12+, FastAPI, Playwright (3-worker pool), PostgreSQL 16 + pgvector, Redis, Trafilatura",
+      "summary": "Enterprise-grade web crawl and extraction engine purpose-built for autonomous AI agents, LLM toolchains, and RAG pipelines with 100% sovereign link graph discovery and zero external SERP dependencies.",
+      "capabilities": [
+        "25x Concurrency Pipeline: Async HTTP/2 fetchers with automated headless Playwright Chromium fallback for SPAs and bot challenges.",
+        "Precision Extraction & Chunking: Trafilatura readability parser with aggressive XPath boilerplate pruning and sentence-level windowing (≤1000 chars).",
+        "Hybrid Vector Search: PostgreSQL 16 pgvector HNSW indexing combined with FastEmbed ONNX (BAAI/bge-small-en-v1.5) and FlashRank Cross-Encoder reranking.",
+        "Native MCP Server: Implements Model Context Protocol via stdio and HTTP/SSE JSON-RPC transports for direct agent tool calling.",
+        "Defense in Depth: Pre-flight DNS resolution blocking loopback, link-local, RFC1918 subnets, and cloud metadata (169.254.169.254)."
+      ],
+      "status": "Active Development / Local Research Service",
+      "endpoints": ["POST /v1/scrape", "POST /v1/search/live", "POST /v1/crawl", "POST /v1/map"]
+    },
+    "mcp": {
+      "title": "Model Context Protocol (MCP) Integration",
+      "subtitle": "AI-Assisted Engineering Workflows via Standardized Protocol",
+      "summary": "Integrated multiple MCP servers to power autonomous coding workflows, live documentation grounding, and design systems without leaking secrets.",
+      "servers": [
+        {
+          "name": "Context7 MCP",
+          "purpose": "Real-time, version-accurate documentation lookup across libraries and SDKs (React, Next.js, Tailwind, Python)."
+        },
+        {
+          "name": "Stitch MCP",
+          "purpose": "Generative UI and interactive layout assistance directly connecting design specs into code generation."
+        },
+        {
+          "name": "REA MCP",
+          "purpose": "Reverse-engineering and binary/web runtime inspection combining CDP session tracking with static AST tools."
+        },
+        {
+          "name": "Playwright MCP",
+          "purpose": "Headless browser automation, visual verification, and interactive UI testing in isolated sandboxes."
+        }
+      ]
+    }
+  },
+  "research": [
+    {
+      "type": "Journal Publication",
+      "title": "Innovative host-based intrusion detection systems : Safeguarding networks in the digital Era",
+      "authors": "Himjyoti Talukdar, Nitish Kumar Sarma, Debashish Bordoloi, Riya Sil, Nirmalya Pal",
+      "venue": "Journal of Information and Optimization Sciences (JIOS, Taru Publications)",
+      "date": "May 22, 2026 (Online First)",
+      "doi": "10.47974/JIOS-1981",
+      "url": "https://www.tarupublications.com/doi/10.47974/JIOS-1981",
+      "description": "Peer-reviewed research investigating advanced host-based intrusion detection techniques, behavioral telemetry monitoring, and proactive defense against modern network vulnerabilities."
+    },
+    {
+      "type": "Conference Participation",
+      "title": "International Conference on Recent Trends in Mathematics and Computing (ICRTMC-2026)",
+      "venue": "Department of Mathematics, Jamia Millia Islamia, New Delhi",
+      "date": "February 16–18, 2026",
+      "note": "Conference track intersecting computational security, AI in computing, and web privacy systems (including research context on Browser-Based Data Leak Prevention Systems)."
+    }
   ],
   "highlights": [
     {
-      "text": "Security Researcher on Bugcrowd and HackerOne"
+      "text": "Security Researcher at Bugcrowd & HackerOne",
+      "url": "https://hackerone.com/d4shh4x0r"
     },
     {
-      "text": "Full Stack Developer at CNCF Guwahati"
+      "text": "Full Stack Developer at CNCF Guwahati",
+      "url": "https://github.com/d43ash1sh"
     },
     {
-      "text": "OWASP Chapter Leader for OWASP Foundation"
+      "text": "OWASP Chapter Leader for OWASP Foundation",
+      "url": "https://owasp.org/"
     },
     {
       "text": "API Penetration Testing - APIsec University",
@@ -51,10 +125,6 @@
     },
     {
       "text": "SQL and Relational Databases 101 - IBM (Big Data University)"
-    },
-    {
-      "text": "Research paper: Browser-Based Data Leak Prevention System for Secure Web Interactions",
-      "url": "https://doi.org/10.47974/JIOS-1981"
     }
   ],
   "education": [
@@ -78,114 +148,66 @@
   ],
   "projects": [
     {
-      "title": "OrganLink",
-      "description": "Academic healthcare registry and transparent matching research prototype built around secure web architecture, role-based access, deterministic matching, and a SHA-256 hash-chain audit trail. Not for clinical allocation.",
-      "tags": [
-        "Next.js",
-        "TypeScript",
-        "PostgreSQL",
-        "Security"
-      ],
-      "url": "https://organ-link-seven.vercel.app/login"
+      "title": "Nya (ঞ) Search Engine",
+      "description": "Assamese-first, regional-language-aware search engine combining lexical web retrieval with source-grounded AI answers. Features Unicode normalization, phonetic query transliteration, and zero-hallucinated citations.",
+      "tags": ["Next.js", "Python", "FastAPI", "PostgreSQL", "Regional NLP"],
+      "url": "https://nya-search.vercel.app/",
+      "github": "https://github.com/d43ash1sh/Nya",
+      "status": "Live Production"
     },
     {
-      "title": "Nya Search (ঞ)",
-      "description": "Assamese-first, regional-language-aware search engine for Assamese, English, Romanized Assamese, and mixed-language queries, with source-grounded AI answers and citations.",
-      "tags": [
-        "Next.js",
-        "Python",
-        "FastAPI",
-        "AI Search"
-      ],
-      "url": "https://nya-search.vercel.app/"
+      "title": "OrganLink",
+      "description": "Secure healthcare network and organ donation platform. Provides medical-grade role authentication, recipient-donor compatibility matching, and resilient clinical workflow pipelines.",
+      "tags": ["Next.js", "TypeScript", "AppSec", "Healthcare Tech"],
+      "url": "https://organ-link-seven.vercel.app/login",
+      "status": "Live Demo"
     },
     {
       "title": "CubeCube",
-      "description": "A live web project. Visit the deployed demo to explore its current features.",
-      "tags": [
-        "Web App",
-        "Vercel",
-        "Live Demo"
-      ],
-      "url": "https://cubecube.vercel.app/"
+      "description": "Intelligent Rubik's Cube solver, interactive 3D guided tutor, and speedcubing companion with real-time algorithm visualization and step-by-step solving logic.",
+      "tags": ["React", "Three.js", "TypeScript", "Algorithms"],
+      "url": "https://cubecube.vercel.app/",
+      "status": "Live Application"
     },
     {
       "title": "Adi Voice Project",
-      "description": "Full-stack speech corpus collection platform designed to collect, aggregate, and review localized Adi-language speech datasets.",
-      "tags": [
-        "TypeScript",
-        "Next.js",
-        "Full-Stack"
-      ],
-      "url": "https://github.com/d43ash1sh/Adi-Voice-Project"
+      "description": "A dedicated speech corpus collection and annotation platform designed for the preservation of the indigenous Adi language in Arunachal Pradesh.",
+      "tags": ["Next.js", "TypeScript", "Full-Stack", "Acoustic Datasets"],
+      "url": "https://github.com/d43ash1sh/Adi-Voice-Project",
+      "github": "https://github.com/d43ash1sh/Adi-Voice-Project",
+      "status": "Open Source"
     },
     {
       "title": "AuthHub",
-      "description": "GitHub-powered portfolio dashboard with OAuth login, repository analytics, pinned projects, and automated PDF export.",
-      "tags": [
-        "Next.js",
-        "TypeScript",
-        "OAuth"
-      ],
-      "url": "https://debashishhub.vercel.app"
+      "description": "GitHub-powered portfolio analytics dashboard with OAuth authentication, repository telemetry, pinned project metrics, and automated PDF export.",
+      "tags": ["Next.js", "TypeScript", "OAuth", "Analytics"],
+      "url": "https://debashishhub.vercel.app",
+      "github": "https://github.com/d43ash1sh/AuthHub",
+      "status": "Live Dashboard"
     },
     {
       "title": "ClipNinja",
-      "description": "Web application for extracting, trimming, previewing, and downloading YouTube video segments.",
-      "tags": [
-        "TypeScript",
-        "Web App",
-        "Video"
-      ],
-      "url": "https://github.com/d43ash1sh/ClipNinja"
-    },
-    {
-      "title": "Decentralized Storage System",
-      "description": "A decentralized storage proof of concept using IPFS and blockchain concepts.",
-      "tags": [
-        "Web3",
-        "IPFS",
-        "Blockchain"
-      ],
-      "url": "https://decentralized-storage-system.vercel.app/"
+      "description": "Fast video segment clipping utility to extract, trim, preview, and download precise YouTube video timestamps with a lightweight client UI.",
+      "tags": ["TypeScript", "Web App", "Video Streaming"],
+      "url": "https://github.com/d43ash1sh/ClipNinja",
+      "github": "https://github.com/d43ash1sh/ClipNinja",
+      "status": "Open Source"
     },
     {
       "title": "SpeedPulse",
-      "description": "Internet speed testing with visualizations and analytics.",
-      "tags": [
-        "TypeScript",
-        "Web App",
-        "Analytics"
-      ],
-      "url": "https://speed-pulse-iota.vercel.app"
+      "description": "Interactive broadband and latency performance testing web application with real-time visualization graphs and network diagnostics.",
+      "tags": ["TypeScript", "Web App", "Network Diagnostics"],
+      "url": "https://speed-pulse-iota.vercel.app",
+      "github": "https://github.com/d43ash1sh/SpeedPulse",
+      "status": "Live Tool"
     },
     {
-      "title": "ADTU Confessions",
-      "description": "Anonymous platform for Assam Down Town University students to share stories and experiences.",
-      "tags": [
-        "TypeScript",
-        "Full-Stack"
-      ],
-      "url": "https://github.com/d43ash1sh/ADTU-Confessions"
-    },
-    {
-      "title": "RGU Library Card Generator",
-      "description": "Digital library membership card generator for Rajiv Gandhi University students.",
-      "tags": [
-        "TypeScript",
-        "Next.js"
-      ],
-      "url": "https://libraryrgu.vercel.app"
-    },
-    {
-      "title": "Subz (Subdomain Enumeration)",
-      "description": "Bash command-line tool for subdomain collection and security reconnaissance.",
-      "tags": [
-        "Bash",
-        "Security",
-        "CLI"
-      ],
-      "url": "https://github.com/d43ash1sh/subdomain_enumeration"
+      "title": "Subz (Subdomain Recon)",
+      "description": "High-performance CLI reconnaissance tool written in Bash using crt.sh certificate transparency logs and jq for rapid subdomain discovery.",
+      "tags": ["Bash", "Security Recon", "CLI", "OSINT"],
+      "url": "https://github.com/d43ash1sh/subdomain_enumeration",
+      "github": "https://github.com/d43ash1sh/subdomain_enumeration",
+      "status": "Open Source Tool"
     }
   ]
 }
