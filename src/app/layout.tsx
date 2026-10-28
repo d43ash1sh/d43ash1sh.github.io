@@ -21,38 +21,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Debashish Bordoloi — Full Stack Developer & Security Researcher",
-  description: "Portfolio of Debashish Bordoloi — Full Stack Developer, Security Researcher, and AI Systems Engineer based in Guwahati, Assam.",
-  keywords: [
-    "Debashish Bordoloi",
-    "Security Researcher",
-    "Full Stack Developer",
-    "Next.js",
-    "Model Context Protocol",
-    "REA",
-    "Agent Search",
-    "Guwahati",
-    "Assam"
-  ],
-  authors: [{ name: "Debashish Bordoloi", url: "https://d43ash1sh.github.io" }],
-  creator: "Debashish Bordoloi",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://d43ash1sh.github.io",
-    title: "Debashish Bordoloi — Full Stack Developer & Security Researcher",
-    description: "Full Stack Developer, Security Researcher, and AI Systems Engineer based in Guwahati, Assam.",
-    siteName: "Debashish Bordoloi Portfolio",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Debashish Bordoloi — Full Stack Developer & Security Researcher",
-    description: "Full Stack Developer, Security Researcher, and AI Systems Engineer based in Guwahati, Assam.",
-    creator: "@d43a_io",
-  },
-  icons: {
-    icon: "/icon.png",
-  },
+  title: "Debashish Bordoloi | Full-Stack Developer & Application Security Researcher",
+  description: "M.Tech Computer Science student, full-stack developer, and application security researcher building secure web applications and regional-language AI search tools.",
 };
 
 export default function RootLayout({
@@ -63,7 +33,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">

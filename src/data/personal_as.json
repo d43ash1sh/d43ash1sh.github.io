@@ -1,213 +1,214 @@
 {
   "name": "দেবাশীষ বৰদলৈ",
   "email": "debashishbordoloi007@gmail.com",
+  "phone": "",
   "location": "গুৱাহাটী, অসম, ভাৰত",
   "roles": [
-    "ফুল ষ্টেক ডেভেলপাৰ",
-    "ছিকিউৰিটি ৰিচাৰ্ছাৰ",
-    "AI ছিষ্টেম আৰু টুলিং ইঞ্জিনিয়াৰ"
+    "ফুল-ষ্টেক ডেভেলপাৰ",
+    "এপ্লিকেচন ছিকিউৰিটি ৰিচাৰ্ছাৰ",
+    "এম.টেক কম্পিউটাৰ বিজ্ঞানৰ গৱেষক"
   ],
   "about": [
-    "ছফ্টৱেৰ ইঞ্জিনিয়াৰ আৰু ছিকিউৰিটি ৰিচাৰ্ছাৰ যাৰ ফুল-ষ্টেক আৰ্কিটেকচাৰ, ৱেব ছিকিউৰিটি টেষ্টিং আৰু স্বায়ত্তশাসিত AI-সহায়তাপ্রাপ্ত ডেভেলপমেণ্ট ৱৰ্কফ্ল'ত গভীৰ অভিজ্ঞতা আছে।",
-    "ভালনাৰেবিলিটি এছেছমেণ্ট (OWASP Top 10, SSRF প্ৰতিৰোধ, কৰ্তৃত্ব ত্ৰুটি), ক্লায়েণ্ট-ছাইড ষ্টেটিক AST বিশ্লেষণ আৰু বিতৰিত সন্ধান ব্যৱস্থাত দক্ষ।",
-    "আঞ্চলিক ভাষাৰ বহুভাষিক প্ৰণালী, মডেল কণ্টেক্সট প্ৰটোকল (MCP) ৰ সহায়ত ডেভেলপাৰ টুলিং আৰু স্বতন্ত্ৰ তথ্য উদ্ধাৰ ব্যৱস্থা নিৰ্মাণত উৎসৰ্গিত।"
+    "আধুনিক ৱেব প্ৰযুক্তি ব্যৱহাৰ কৰি সুৰক্ষিত আৰু ব্যৱহাৰিক ৱেব এপ্লিকেচন নিৰ্মাণত আগ্ৰহী এজন ফুল-ষ্টেক ডেভেলপাৰ।",
+    "এপ্লিকেচন ছিকিউৰিটি, দুৰ্বলতা মূল্যায়ন আৰু AI-সহায়ক প্ৰডাক্ট ডেভেলপমেণ্টত আগ্ৰহী।",
+    "ৰাজীৱ গান্ধী বিশ্ববিদ্যালয়ত কম্পিউটাৰ বিজ্ঞানত এম.টেক কৰি আছোঁ আৰু ছফ্টৱেৰ ইঞ্জিনিয়াৰিং, গোপনীয়তা আৰু বাস্তৱ সমস্যাৰ সমাধান সংযোগ কৰা প্ৰকল্প নিৰ্মাণ কৰিছোঁ।"
   ],
   "skills": {
-    "Languages": ["TypeScript", "JavaScript", "Python", "Bash", "SQL", "C++"],
-    "Frontend": ["React", "Next.js (App Router)", "Tailwind CSS", "Framer Motion", "Three.js"],
-    "Backend & APIs": ["Node.js", "FastAPI", "RESTful APIs", "Next.js API Routes", "Trafilatura"],
-    "Databases & Storage": ["PostgreSQL", "Supabase", "pgvector (HNSW)", "SQLite", "Redis", "IPFS"],
-    "Security & Analysis": ["OWASP Top 10", "Burp Suite", "REA (Reverse Engineer Anything)", "Static AST Decompilation", "SSRF Pre-flight Defense", "API Pentesting"],
-    "Developer Tools & AI": ["Model Context Protocol (MCP)", "Context7 MCP", "Stitch MCP", "Playwright", "Docker", "Git", "Linux CLI"]
+    "Frontend": "React, Next.js (App Router), TypeScript, JavaScript, Tailwind CSS, Three.js",
+    "Backend & APIs": "Node.js, REST APIs, Python, FastAPI, Trafilatura",
+    "Databases & Storage": "PostgreSQL, Supabase, pgvector, SQL, Redis, SQLite",
+    "Security & Research": "OWASP Top 10, REA (Reverse Engineer Anything), Vulnerability Assessment, Burp Suite, SSRF Defense",
+    "Tools, MCP & Workflow": "Model Context Protocol (MCP), Context7, Stitch, Git, Playwright, Linux CLI, Postman",
+    "Cloud & Deployment": "Vercel, GitHub Pages, AWS S3, Google Cloud Platform",
+    "AI & Research": "AI-assisted Development, Source-grounded AI, Security Research, Research Writing"
   },
-  "passions": [
-    "ছিষ্টেম আৰ্কিটেকচাৰ",
-    "ছিকিউৰিটি গৱেষণা আৰু ৰিভাৰ্ছ ইঞ্জিনিয়াৰিং",
-    "স্বায়ত্তশাসিত AI এজেণ্ট টুলিং",
-    "আঞ্চলিক ভাষাৰ প্ৰযুক্তি"
-  ],
-  "technicalWork": {
-    "rea": {
-      "title": "প্ৰশাসনিক আৰ্কিটেকচাৰ আৰু ৰিভাৰ্ছ ইঞ্জিনিয়াৰিং অডিট",
-      "subtitle": "প্ৰশাসনিক ছাৰ্ফেচৰ অনাক্ৰমণাত্মক ছিকিউৰিটি অডিট (apssb.online)",
-      "tooling": "REA v6.8.0, ক্ৰোম ডেভটুলছ প্ৰটোকল (CDP), ষ্টেটিক AST বাণ্ডিল ডিকনষ্ট্ৰাকচন",
-      "summary": "apssb.online চালিত প্ৰশাসনিক ব্যৱস্থাৰ প্ৰমাণভিত্তিক, অনাক্ৰমণাত্মক আৰ্কিটেকচাৰেল অডিট। আৱিষ্কৃত পৃষ্ঠসমূহ মানচিত্ৰিত কৰিবলৈ ক্লায়েণ্ট-ছাইড ৰুট ট্ৰী আৰু জাভাস্ক্রিপ্ট বাণ্ডিলসমূহ বিশ্লেষণ কৰা হৈছে।",
-      "findings": [
-        "বিভক্ত প্ৰশাসনিক পৃষ্ঠ: ৰাজহুৱা ফ্ৰণ্টএণ্ডে কেৱল দুটা পথ প্ৰদৰ্শন কৰে (/admin/current-affairs আৰু /admin/appscce), আনহাতে পৰীক্ষা আৰু প্ৰশ্ন বেংক ব্যৱস্থাপনা ক্লায়েণ্ট বাণ্ডিলত সম্পূৰ্ণ অনুপস্থিত।",
-        "প্ৰমাণীকৰণ আৰ্হি: হেডৰ কী (x-admin-key) আৰু ৪-ঘণ্টীয়া সুৰক্ষিত HTTP-only কুকিৰ (appscce_admin_session) মাজত নিৰাপত্তা পাৰ্থক্য চিনাক্ত।",
-        "স্বয়ংক্ৰিয় বাতৰি সংগ্ৰাহক: প্ৰেছ ইনফৰমেচন ব্যুৰ' (PIB) ৰ বাবে এক স্বয়ংক্রিয় পটভূমি ক্ৰলাৰ আৰু তথ্য পৰীক্ষণ পাইপলাইন নথিভুক্ত কৰা হৈছে।",
-        "ছিকিউৰিটি পৰামৰ্শ: ভূমিকা-ভিত্তিক প্ৰৱেশ নিয়ন্ত্ৰণ (RBAC), মাল্টি-ফেক্টৰ প্ৰমাণীকৰণ (MFA) আৰু সুৰক্ষিত প্ৰশ্ন সৃষ্টিৰ বাবে কাৰ্যকৰী আৰ্কিটেকচাৰ প্ৰস্তুত।"
-      ],
-      "status": "সম্পূৰ্ণ অডিট আৰু আৰ্কিটেকচাৰেল বিশ্লেষণ"
-    },
-    "agentSearch": {
-      "title": "এজেণ্ট চাৰ্চ ইঞ্জিন",
-      "subtitle": "বিতৰিত, এজেণ্ট-কেন্দ্ৰিক ৱেব ক্ৰল, নিষ্কাশন আৰু হাইব্ৰিড উদ্ধাৰ ইঞ্জিন",
-      "tech": "Python 3.12+, FastAPI, Playwright (৩-কৰ্মী পুল), PostgreSQL 16 + pgvector, Redis, Trafilatura",
-      "summary": "স্বায়ত্তশাসিত AI এজেণ্ট, LLM টুলচেইন আৰু RAG পাইপলাইনৰ বাবে নিৰ্মিত এণ্টাৰপ্ৰাইজ-গ্ৰেড ৱেব ক্ৰল আৰু উদ্ধাৰ ইঞ্জিন, যাৰ বাহ্যিক বাণিজ্যিক চাৰ্চ ইঞ্জিনৰ ওপৰত কোনো নিৰ্ভৰশীলতা নাই।",
-      "capabilities": [
-        "২৫x সমান্তৰাল প্ৰক্ৰিয়া: জাভাস্ক্রিপ্ট SPA আৰু বট প্ৰত্যাহ্বানৰ বাবে স্বয়ংক্ৰিয় প্লেৰাইট ক্ৰমিয়াম ফলবেকৰ সৈতে এছিনক্ৰোনাছ HTTP/2 ফেচাৰ।",
-        "নিখুঁত নিষ্কাশন: Trafilatura ৰ জৰিয়তে অপ্ৰয়োজনীয় অংশ আঁতৰাই বাক্য-স্তৰৰ উইণ্ড'য়িং (≤১০০০ বৰ্ণ)।",
-        "হাইব্ৰিড ভেক্টৰ চাৰ্চ: PostgreSQL 16 pgvector HNSW ইনডেক্স আৰু FastEmbed ONNX ৰ সৈতে FlashRank Cross-Encoder পুনৰ-ৰেংকিং।",
-        "মডেল কণ্টেক্সট প্ৰটোকল (MCP): ষ্টডিঅ' আৰু HTTP/SSE JSON-RPC ট্ৰান্সপোৰ্টৰ জৰিয়তে AI এজেণ্টে সঁজুলি ব্যৱহাৰ কৰিব পাৰে।",
-        "SSRF সুৰক্ষা: লুপবেক, প্ৰাইভেট নেটৱৰ্ক আৰু ক্লাউড মেটাডেটা ব্লক কৰাৰ বাবে প্ৰি-ফ্লাইট DNS সুৰক্ষা।"
-      ],
-      "status": "সক্ৰিয় গৱেষণা আৰু বিকাশ সেৱা",
-      "endpoints": ["POST /v1/scrape", "POST /v1/search/live", "POST /v1/crawl", "POST /v1/map"]
-    },
-    "mcp": {
-      "title": "মডেল কণ্টেক্সট প্ৰটোকল (MCP) একত্ৰীকৰণ",
-      "subtitle": "প্ৰমিত প্ৰটোকলৰ জৰিয়তে AI-চালিত ইঞ্জিনিয়াৰিং ৱৰ্কফ্ল'",
-      "summary": "গোপনীয়তা ৰক্ষা কৰি স্বায়ত্তশাসিত ক'ডিং, সঠিক ডকুমেণ্টেচন আৰু ডিজাইন ব্যৱস্থাৰ বাবে একাধিক MCP চাৰ্ভাৰ সংহত কৰা হৈছে।",
-      "servers": [
-        {
-          "name": "Context7 MCP",
-          "purpose": "লাইব্ৰেৰী আৰু SDKসমূহৰ বাবে সঠিক, শেহতীয়া ডকুমেণ্টেচন উদ্ধাৰ।"
-        },
-        {
-          "name": "Stitch MCP",
-          "purpose": "ইণ্টাৰেক্টিভ লেআউট আৰু আধুনিক UI ডিজাইন কোডলৈ ৰূপান্তৰ কৰাত সহায়তা।"
-        },
-        {
-          "name": "REA MCP",
-          "purpose": "CDP চেশ্বন ট্ৰেকিং আৰু ষ্টেটিক AST সঁজুলিৰ সৈতে ৰিভাৰ্ছ-ইঞ্জিনিয়াৰিং বিশ্লেষণ।"
-        },
-        {
-          "name": "Playwright MCP",
-          "purpose": "সুৰক্ষিত ব্ৰাউজাৰ অটোমেচন, স্ক্ৰীনশ্বট আৰু স্বয়ংক্ৰিয় টেষ্টিং।"
-        }
-      ]
-    }
-  },
-  "research": [
-    {
-      "type": "জাৰ্নেল প্ৰকাশন",
-      "title": "Innovative host-based intrusion detection systems : Safeguarding networks in the digital Era",
-      "authors": "Himjyoti Talukdar, Nitish Kumar Sarma, Debashish Bordoloi, Riya Sil, Nirmalya Pal",
-      "venue": "Journal of Information and Optimization Sciences (JIOS, Taru Publications)",
-      "date": "২২ মে' ২০২৬ (Online First)",
-      "doi": "10.47974/JIOS-1981",
-      "url": "https://www.tarupublications.com/doi/10.47974/JIOS-1981",
-      "description": "হষ্ট-আধাৰিত অনুপ্ৰৱেশ চিনাক্তকৰণ পদ্ধতি, ব্যৱহাৰিক টেলিমেট্ৰি নিৰীক্ষণ আৰু আধুনিক নেটৱৰ্ক নিৰাপত্তা বিষয়ক সমনীয়া-পৰ্যালোচিত গৱেষণা।"
-    },
-    {
-      "type": "সম্মিলন অংশগ্ৰহণ",
-      "title": "International Conference on Recent Trends in Mathematics and Computing (ICRTMC-2026)",
-      "venue": "Department of Mathematics, Jamia Millia Islamia, New Delhi",
-      "date": "১৬–১৮ ফেব্ৰুৱাৰী, ২০২৬",
-      "note": "গাণিতিক নিৰাপত্তা, কম্পিউটিংত AI আৰু ৱেব গোপনীয়তা ব্যৱস্থাৰ ওপৰত আলোচনা (Browser-Based Data Leak Prevention System গৱেষণা প্ৰসংগসহ)।"
-    }
+  "passion": [
+    "সুৰক্ষিত ফুল-ষ্টেক ইঞ্জিনিয়াৰিং",
+    "এপ্লিকেচন ছিকিউৰিটি ৰিচাৰ্ছ",
+    "AI-সহায়ক প্ৰডাক্ট ডেভেলপমেণ্ট আৰু MCP সঁজুলি"
   ],
   "highlights": [
     {
-      "text": "Bugcrowd আৰু HackerOne ত ছিকিউৰিটি ৰিচাৰ্ছাৰ",
-      "url": "https://hackerone.com/d4shh4x0r"
+      "text": "Bugcrowd আৰু HackerOne ত ছিকিউৰিটি ৰিচাৰ্ছাৰ"
     },
     {
-      "text": "CNCF গুৱাহাটীত ফুল ষ্টেক ডেভেলপাৰ",
-      "url": "https://github.com/d43ash1sh"
+      "text": "CNCF গুৱাহাটীত ফুল ষ্টেক ডেভেলপাৰ"
     },
     {
-      "text": "OWASP ফাউণ্ডেচনৰ চেপ্টাৰ লিডাৰ",
-      "url": "https://owasp.org/"
+      "text": "OWASP ফাউণ্ডেচনৰ চেপ্টাৰ লিডাৰ"
     },
     {
-      "text": "API পেনেট্ৰেচন টেষ্টিং - APIsec University",
+      "text": "গৱেষণা পত্ৰ (JIOS): Innovative host-based intrusion detection systems: Safeguarding networks in the digital Era",
+      "url": "https://doi.org/10.47974/JIOS-1981"
+    },
+    {
+      "text": "কনফাৰেন্স প্ৰেজেন্টেচন: Browser-Based Data Leak Prevention System for Secure Web Interactions (ICRTMC-2026, Jamia Millia Islamia)"
+    },
+    {
+      "text": "প্ৰশাসনিক আর্কিটেকচাৰ আৰু ৰিভাৰ্ছ ইঞ্জিনিয়াৰিং অডিট (REA v6.8.0 & CDP ব্যৱহাৰ কৰি apssb.online অডিট)"
+    },
+    {
+      "text": "API Penetration Testing - APIsec University",
       "url": "https://www.credly.com/badges/d82eee33-702d-4f44-87bf-c2e5d8b48051/linked_in_profile"
     },
     {
-      "text": "এথিকেল হেকিং এছেনচিয়েলছ - EC-Council",
+      "text": "Ethical Hacking Essentials - EC-Council",
       "url": "https://codered.eccouncil.org/certificate/7a83121e-1934-4fa7-92e1-48c18337c573"
     },
     {
-      "text": "নেটৱৰ্ক ডিফেন্স এছেনচিয়েলছ - EC-Council",
+      "text": "Network Defense Essentials - EC-Council",
       "url": "https://codered.eccouncil.org/certificate/ff925348-d332-46be-9f2d-f4f2758bbeeb?logged=true"
     },
     {
-      "text": "SQL আৰু ৰিলেশনেল ডাটাবেছ 101 - IBM (Big Data University)"
+      "text": "SQL and Relational Databases 101 - IBM"
+    },
+    {
+      "text": "ইনষ্টাগ্ৰামত কাৰিকৰী আৰু কনফাৰেন্স আপডেট (@debashishbordoloi007)",
+      "url": "https://www.instagram.com/debashishbordoloi007/p/DU2pvveAZB3/"
     }
   ],
   "education": [
     {
-      "degree": "কম্পিউটাৰ বিজ্ঞানত এম.টেক (M.Tech)",
+      "degree": "কম্পিউটাৰ বিজ্ঞানত এম.টেক",
       "institution": "ৰাজীৱ গান্ধী বিশ্ববিদ্যালয়, অৰুণাচল প্ৰদেশ",
       "year": "২০২৫ - বৰ্তমান"
     },
     {
       "degree": "মাষ্টাৰ অৱ কম্পিউটাৰ এপ্লিকেচনছ (MCA)",
       "institution": "ৰাজীৱ গান্ধী বিশ্ববিদ্যালয়",
-      "score": "CGPA: ৭.৮০",
+      "score": "CGPA: 7.80",
       "year": "২০২৩ - ২০২৫"
     },
     {
-      "degree": "বেচেলৰ অৱ কম্পিউটাৰ এপ্লিকেচনছ (BCA - CTIS)",
+      "degree": "বেচেলৰ অৱ কম্পিউটাৰ এপ্লিকেচনছ (CTIS)",
       "institution": "অসম ডাউন টাউন বিশ্ববিদ্যালয়",
-      "score": "CGPA: ৮.০৭",
+      "score": "CGPA: 8.07",
       "year": "২০২০ - ২০২৩"
     }
   ],
   "projects": [
     {
-      "title": "ঞ (Nya) চাৰ্চ ইঞ্জিন",
-      "description": "অসমীয়া ভাষা-প্ৰাথমিক, আঞ্চলিক ভাষা-সচেতন চাৰ্চ ইঞ্জিন যাৰ দ্বাৰা প্ৰামাণিক উৎসৰ সৈতে AI উত্তৰ পোৱা যায়। ইউনিক'ড নৰ্মালাইজেচন আৰু ফ'নেটিক টাইপিং সুবিধা অন্তৰ্ভুক্ত।",
-      "tags": ["Next.js", "Python", "FastAPI", "PostgreSQL", "Regional NLP"],
-      "url": "https://nya-search.vercel.app/",
-      "github": "https://github.com/d43ash1sh/Nya",
-      "status": "লাইভ প্ৰডাকচন"
+      "title": "OrganLink",
+      "description": "সুৰক্ষিত ৱেব আর্কিটেকচাৰ, role-based access, deterministic matching আৰু SHA-256 hash-chain audit trail ব্যৱহাৰ কৰা একাডেমিক healthcare registry prototype। clinical allocation-ৰ বাবে নহয়।",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Security"
+      ],
+      "url": "https://organ-link-seven.vercel.app/login"
     },
     {
-      "title": "OrganLink",
-      "description": "সুৰক্ষিত স্বাস্থ্যসেৱা নেটৱৰ্ক আৰু অংগদান ব্যৱস্থাপনা প্লেটফৰ্ম। চিকিৎসা-স্তৰৰ ভূমিকাভিত্তিক প্ৰমাণীকৰণ আৰু গ্ৰাহক-দাতা মিল খোৱাৰ ব্যৱস্থা আগবঢ়ায়।",
-      "tags": ["Next.js", "TypeScript", "AppSec", "Healthcare Tech"],
-      "url": "https://organ-link-seven.vercel.app/login",
-      "status": "লাইভ ডেম'"
+      "title": "Nya Search (ঞ)",
+      "description": "অসমীয়া, ইংৰাজী, Romanized Assamese আৰু মিশ্ৰ ভাষাৰ query-ৰ বাবে নিৰ্মিত search engine, য'ত source-grounded AI answers আৰু citations আছে।",
+      "tags": [
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "AI Search"
+      ],
+      "url": "https://nya-search.vercel.app/"
+    },
+    {
+      "title": "Agent Search Engine",
+      "description": "Python, FastAPI, Playwright pool, PostgreSQL pgvector HNSW, আৰু Model Context Protocol (MCP) সমৰ্থন থকা agent-native চাৰ্চ আৰু ক্ৰলিং ইঞ্জিন।",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Playwright",
+        "pgvector",
+        "MCP"
+      ],
+      "url": "https://github.com/d43ash1sh"
     },
     {
       "title": "CubeCube",
-      "description": "বুদ্ধিমত্তাৰে ৰুবিক কিউব সমাধানকাৰী, ৩D ইন্টাৰেক্টিভ শিক্ষক আৰু এলগৰিথম ভিজুৱেলাইজেশ্যন টুল।",
-      "tags": ["React", "Three.js", "TypeScript", "Algorithms"],
-      "url": "https://cubecube.vercel.app/",
-      "status": "লাইভ এপ্লিকেচন"
+      "description": "ৰিয়েল-টাইম এলগৰিথম ভিজুৱেলাইজেচন আৰু ৩ডি গাইড থকা ইণ্টাৰেক্টিভ ৰুবিক কিউব চলভাৰ আৰু ৱেব প্ৰকল্প।",
+      "tags": [
+        "React",
+        "Three.js",
+        "TypeScript",
+        "Web App"
+      ],
+      "url": "https://cubecube.vercel.app/"
     },
     {
-      "title": "আদি ভয়েচ প্ৰজেক্ট (Adi Voice Project)",
-      "description": "অৰুণাচল প্ৰদেশৰ খিলঞ্জীয়া আদি ভাষা সংৰক্ষণৰ বাবে এক বিশেষ স্পীচ কৰ্পাচ সংগ্ৰহ প্লেটফৰ্ম।",
-      "tags": ["Next.js", "TypeScript", "Full-Stack", "Acoustic Datasets"],
-      "url": "https://github.com/d43ash1sh/Adi-Voice-Project",
-      "github": "https://github.com/d43ash1sh/Adi-Voice-Project",
-      "status": "মুক্ত উৎস"
+      "title": "Adi Voice Project",
+      "description": "আদি ভাষাৰ speech dataset সংগ্ৰহ আৰু পৰ্যালোচনাৰ বাবে নিৰ্মিত full-stack platform।",
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "Full-Stack"
+      ],
+      "url": "https://github.com/d43ash1sh/Adi-Voice-Project"
     },
     {
       "title": "AuthHub",
-      "description": "OAuth লগইন, ৰিপ'জিটৰি এনালাইটিক্স, পিন কৰা প্ৰকল্প আৰু স্বয়ংক্ৰিয় PDF ৰপ্তানিযুক্ত GitHub-চালিত ডেশ্বব'ৰ্ড।",
-      "tags": ["Next.js", "TypeScript", "OAuth", "Analytics"],
-      "url": "https://debashishhub.vercel.app",
-      "github": "https://github.com/d43ash1sh/AuthHub",
-      "status": "লাইভ ডেশ্বব'ৰ্ড"
+      "description": "OAuth login, repository analytics আৰু PDF export থকা GitHub-powered portfolio dashboard।",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "OAuth"
+      ],
+      "url": "https://debashishhub.vercel.app"
     },
     {
       "title": "ClipNinja",
-      "description": "ইউটিউব ভিডিঅ'ৰ নিৰ্দিষ্ট অংশ ক্ষিপ্ৰতাৰে ক্লিপ, প্ৰিভিউ আৰু ডাউনলোড কৰাৰ বাবে আধুনিক ৱেব এপ্লিকেচন।",
-      "tags": ["TypeScript", "Web App", "Video Streaming"],
-      "url": "https://github.com/d43ash1sh/ClipNinja",
-      "github": "https://github.com/d43ash1sh/ClipNinja",
-      "status": "মুক্ত উৎস"
+      "description": "YouTube video segment extract আৰু trim কৰাৰ web application।",
+      "tags": [
+        "TypeScript",
+        "Web App",
+        "Video"
+      ],
+      "url": "https://github.com/d43ash1sh/ClipNinja"
+    },
+    {
+      "title": "Decentralized Storage System",
+      "description": "IPFS আৰু blockchain ধাৰণাৰ ওপৰত নিৰ্মিত decentralized storage prototype।",
+      "tags": [
+        "Web3",
+        "IPFS",
+        "Blockchain"
+      ],
+      "url": "https://decentralized-storage-system.vercel.app/"
     },
     {
       "title": "SpeedPulse",
-      "description": "আকৰ্ষণীয় ভিজুৱেলাইজেচন আৰু বিশদ বিশ্লেষণৰ সৈতে আধুনিক ইণ্টাৰনেট গতি পৰীক্ষা।",
-      "tags": ["TypeScript", "Web App", "Network Diagnostics"],
-      "url": "https://speed-pulse-iota.vercel.app",
-      "github": "https://github.com/d43ash1sh/SpeedPulse",
-      "status": "লাইভ সঁজুলি"
+      "description": "Visualization আৰু analytics-সহ internet speed testing tool।",
+      "tags": [
+        "TypeScript",
+        "Web App",
+        "Analytics"
+      ],
+      "url": "https://speed-pulse-iota.vercel.app"
     },
     {
-      "title": "Subz (ছাবড'মেইন ৰিকন)",
-      "description": "crt.sh চাৰ্টিফিকেট ট্ৰান্সপাৰেঞ্চি আৰু jq ব্যৱহাৰ কৰি ছাবড'মেইন সংগ্ৰহৰ বাবে Bash-ত লিখিত শক্তিশালী CLI সঁজুলি।",
-      "tags": ["Bash", "Security Recon", "CLI", "OSINT"],
-      "url": "https://github.com/d43ash1sh/subdomain_enumeration",
-      "github": "https://github.com/d43ash1sh/subdomain_enumeration",
-      "status": "মুক্ত উৎস"
+      "title": "ADTU Confessions",
+      "description": "Assam Down Town University-ৰ ছাত্ৰ-ছাত্ৰীৰ বাবে anonymous sharing platform।",
+      "tags": [
+        "TypeScript",
+        "Full-Stack"
+      ],
+      "url": "https://github.com/d43ash1sh/ADTU-Confessions"
+    },
+    {
+      "title": "RGU Library Card Generator",
+      "description": "ৰাজীৱ গান্ধী বিশ্ববিদ্যালয়ৰ ছাত্ৰ-ছাত্ৰীৰ বাবে digital library card generator।",
+      "tags": [
+        "TypeScript",
+        "Next.js"
+      ],
+      "url": "https://libraryrgu.vercel.app"
+    },
+    {
+      "title": "Subz (Subdomain Enumeration)",
+      "description": "Subdomain collection আৰু security reconnaissance-ৰ বাবে Bash CLI tool।",
+      "tags": [
+        "Bash",
+        "Security",
+        "CLI"
+      ],
+      "url": "https://github.com/d43ash1sh/subdomain_enumeration"
     }
   ]
 }

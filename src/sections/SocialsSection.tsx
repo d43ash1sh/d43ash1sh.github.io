@@ -20,7 +20,7 @@ const getIcon = (name: string) => {
     case "Twitter":
       return <TwitterIcon className="h-4 w-4" />;
     case "Instagram":
-      return <InstagramIcon className="h-4 w-4 text-pink-500" />;
+      return <InstagramIcon className="h-4 w-4" />;
     default:
       return <span className="h-4 w-4" />;
   }

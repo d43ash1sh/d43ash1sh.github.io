@@ -17,9 +17,9 @@ export function TerminalOverlay() {
       command: "",
       output: (
         <div className="text-green-500 mb-2">
-          Welcome to DebOS v2.0.0 (Interactive Developer Shell)
+          Welcome to DebOS v1.0.0
           <br />
-          Type <span className="text-blue-400">&apos;help&apos;</span> to see available commands. Press <span className="text-amber-400">` (backtick)</span> or <span className="text-amber-400">Esc</span> to close.
+          Type <span className="text-blue-400">&apos;help&apos;</span> to see available commands.
         </div>
       ),
     },
@@ -58,141 +58,74 @@ export function TerminalOverlay() {
           <div className="text-green-400">
             Available commands:
             <ul className="mt-1 ml-4 space-y-1 text-gray-300">
-              <li><span className="text-blue-400">whoami</span> - Display developer identity</li>
-              <li><span className="text-blue-400">skills</span> - List categorized technical skills</li>
-              <li><span className="text-blue-400">projects</span> - View all featured projects</li>
-              <li><span className="text-blue-400">systems</span> - Inspect Agent Search &amp; deep systems</li>
-              <li><span className="text-blue-400">rea</span> - View REA reverse engineering audit summary</li>
-              <li><span className="text-blue-400">mcp</span> - Show Model Context Protocol tooling</li>
-              <li><span className="text-blue-400">research</span> - Display publications and conference participation</li>
-              <li><span className="text-blue-400">contact</span> - Show verified contact details</li>
-              <li><span className="text-blue-400">sudo hack-website</span> - Security easter egg</li>
+              <li><span className="text-blue-400">whoami</span> - Display user identity</li>
+              <li><span className="text-blue-400">skills</span> - List technical expertise</li>
+              <li><span className="text-blue-400">projects</span> - View featured projects</li>
+              <li><span className="text-blue-400">contact</span> - Show contact information</li>
+              <li><span className="text-blue-400">sudo hack-website</span> - ???</li>
               <li><span className="text-blue-400">clear</span> - Clear terminal output</li>
               <li><span className="text-blue-400">exit</span> - Close terminal</li>
             </ul>
           </div>
         );
         break;
-
       case "whoami":
         output = (
           <div>
             <div className="font-bold text-white">Debashish Bordoloi</div>
-            <div className="text-gray-300">Full Stack Developer · Security Researcher · AI Tooling Engineer</div>
-            <div className="text-gray-400">M.Tech (CSE) at Rajiv Gandhi University · Based in Guwahati, Assam</div>
+            <div className="text-gray-300">Security Researcher & Full-Stack Developer</div>
+            <div className="text-gray-400">Built with ❤️ in Assam, India.</div>
           </div>
         );
         break;
-
       case "skills":
         output = (
-          <div className="text-gray-300 space-y-1.5">
+          <div className="text-gray-300">
             {Object.entries(personalEn.skills).map(([category, items], idx) => (
-              <div key={idx}>
+              <div key={idx} className="mb-2">
                 <span className="text-green-400 font-bold">{category}:</span>{" "}
-                <span className="text-gray-300">{(items as string[]).join(", ")}</span>
+                {items}
               </div>
             ))}
           </div>
         );
         break;
-
       case "projects":
         output = (
-          <div className="text-gray-300 space-y-1.5">
+          <div className="text-gray-300">
             {personalEn.projects.map((proj, idx) => (
-              <div key={idx}>
-                <span className="text-blue-400 font-bold">{proj.title}</span>{" "}
-                <span className="text-xs text-gray-400">[{proj.status}]</span>:{" "}
-                <span className="text-gray-300">{proj.description}</span>{" "}
-                <a href={proj.url} target="_blank" rel="noopener noreferrer" className="text-indigo-400 underline hover:text-white">
-                  Demo
+              <div key={idx} className="mb-2">
+                <span className="text-blue-400 font-bold">{proj.title}</span> -{" "}
+                <a href={proj.url} target="_blank" rel="noopener noreferrer" className="underline hover:text-white">
+                  Link
                 </a>
               </div>
             ))}
           </div>
         );
         break;
-
-      case "systems":
-      case "agent-search":
-        output = (
-          <div className="text-gray-300 space-y-1">
-            <div className="font-bold text-indigo-400">{personalEn.technicalWork.agentSearch.title}</div>
-            <div className="text-xs text-gray-400">{personalEn.technicalWork.agentSearch.summary}</div>
-            <div className="text-green-400 text-xs mt-1">Endpoints: {personalEn.technicalWork.agentSearch.endpoints.join(", ")}</div>
-          </div>
-        );
-        break;
-
-      case "rea":
-        output = (
-          <div className="text-gray-300 space-y-1">
-            <div className="font-bold text-red-400">{personalEn.technicalWork.rea.title}</div>
-            <div className="text-xs text-gray-400">{personalEn.technicalWork.rea.summary}</div>
-            <div className="text-xs text-gray-300 mt-1">Tooling: {personalEn.technicalWork.rea.tooling}</div>
-          </div>
-        );
-        break;
-
-      case "mcp":
-        output = (
-          <div className="text-gray-300 space-y-1.5">
-            <div className="font-bold text-purple-400">Integrated Model Context Protocol Servers:</div>
-            {personalEn.technicalWork.mcp.servers.map((s, idx) => (
-              <div key={idx} className="text-xs">
-                <span className="text-green-400 font-semibold">{s.name}</span>: {s.purpose}
-              </div>
-            ))}
-          </div>
-        );
-        break;
-
-      case "research":
-        output = (
-          <div className="text-gray-300 space-y-2">
-            {personalEn.research.map((r, idx) => (
-              <div key={idx} className="text-xs">
-                <span className="text-amber-400 font-bold">[{r.type}]</span> {r.title}
-                <div className="text-gray-400">{r.venue} ({r.date || ""})</div>
-                {r.doi && <div className="text-blue-400">DOI: {r.doi}</div>}
-              </div>
-            ))}
-          </div>
-        );
-        break;
-
       case "contact":
         output = (
-          <div className="text-gray-300 space-y-1">
-            <div>Email: <a href="mailto:debashishbordoloi007@gmail.com" className="text-blue-400 hover:underline">debashishbordoloi007@gmail.com</a></div>
-            <div>GitHub: <a href="https://github.com/d43ash1sh" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">github.com/d43ash1sh</a></div>
-            <div>LinkedIn: <a href="https://www.linkedin.com/in/debashishbordoloi/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">linkedin.com/in/debashishbordoloi</a></div>
-            <div>HackerOne: <a href="https://hackerone.com/d4shh4x0r" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">hackerone.com/d4shh4x0r</a></div>
-            <div>Bugcrowd: <a href="https://bugcrowd.com/d43ash1sh" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">bugcrowd.com/d43ash1sh</a></div>
+          <div className="text-gray-300">
+            Email: <a href={`mailto:${personalEn.email}`} className="text-blue-400 hover:underline">{personalEn.email}</a>
           </div>
         );
         break;
-
       case "sudo hack-website":
         output = (
           <div className="text-red-500 font-bold animate-pulse">
-            ACCESS DENIED. THIS INCIDENT HAS BEEN LOGGED TO NULL. 🚨
+            ACCESS DENIED. THIS INCIDENT WILL BE REPORTED. 🚨
           </div>
         );
         break;
-
       case "clear":
         setHistory([]);
         return;
-
       case "exit":
         setIsOpen(false);
         return;
-
       case "":
         break;
-
       default:
         output = (
           <div className="text-red-400">
@@ -220,20 +153,16 @@ export function TerminalOverlay() {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: "-100%", opacity: 0 }}
           transition={{ type: "spring", damping: 20, stiffness: 100 }}
-          className="fixed top-0 left-0 right-0 z-50 h-[55vh] bg-black/95 border-b border-green-500/50 shadow-2xl backdrop-blur-md font-mono text-sm"
+          className="fixed top-0 left-0 right-0 z-50 h-[50vh] bg-black/95 border-b border-green-500/50 shadow-2xl backdrop-blur-md font-mono text-sm"
         >
           <div className="flex flex-col h-full p-4 overflow-hidden">
             <div className="flex justify-between items-center mb-4 border-b border-gray-800 pb-2">
               <div className="flex space-x-2">
-                <div 
-                  className="w-3 h-3 rounded-full bg-red-500 cursor-pointer hover:bg-red-600 transition-colors" 
-                  onClick={() => setIsOpen(false)}
-                  title="Close Terminal"
-                />
+                <div className="w-3 h-3 rounded-full bg-red-500 cursor-pointer hover:bg-red-600 transition-colors" onClick={() => setIsOpen(false)} />
                 <div className="w-3 h-3 rounded-full bg-yellow-500" />
                 <div className="w-3 h-3 rounded-full bg-green-500" />
               </div>
-              <div className="text-gray-500 text-xs">debashish@portfolio:~</div>
+              <div className="text-gray-500 text-xs">user@debashish-portfolio:~</div>
             </div>
 
             <div className="flex-1 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-800 custom-scrollbar">
@@ -263,7 +192,6 @@ export function TerminalOverlay() {
                 className="flex-1 bg-transparent text-white outline-none placeholder-gray-700 font-mono caret-green-500"
                 spellCheck="false"
                 autoComplete="off"
-                placeholder="type a command..."
               />
             </form>
           </div>
