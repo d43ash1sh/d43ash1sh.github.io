@@ -6,7 +6,6 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { LanguageProvider } from "@/lib/LanguageContext";
 import { TerminalOverlay } from "@/components/TerminalOverlay";
-import { BugSquasher } from "@/components/BugSquasher";
 import { AIChatbot } from "@/components/AIChatbot";
 import { Analytics } from "@vercel/analytics/next";
 
@@ -44,7 +43,6 @@ export default function RootLayout({
             <main className="flex-1">{children}</main>
             <Footer />
             <TerminalOverlay />
-            <BugSquasher />
             <AIChatbot />
           </ThemeProvider>
         </LanguageProvider>
