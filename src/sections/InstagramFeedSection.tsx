@@ -13,12 +13,14 @@ import {
   X,
   ChevronLeft,
   ChevronRight,
+  Play,
 } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 
 interface InstagramPost {
   id: string;
   image: string;
+  video?: string;
   url: string;
   type: "carousel" | "reel" | "photo";
   alt: string;
@@ -63,9 +65,10 @@ const instagramPosts: InstagramPost[] = [
   {
     id: "DRrdeeUAdHd",
     image: "/insta/videos/DRrdeeUAdHd.jpg",
+    video: "/insta/videos/DRrdeeUAdHd.mp4",
     url: "https://www.instagram.com/debashishbordoloi007/reel/DRrdeeUAdHd/",
     type: "reel",
-    alt: "Debashish Bordoloi Instagram reel",
+    alt: "Debashish Bordoloi Instagram reel video",
   },
   {
     id: "DQLTw8MAac4_02",
@@ -126,9 +129,10 @@ const instagramPosts: InstagramPost[] = [
   {
     id: "DQ6Ir1VAdlM",
     image: "/insta/videos/DQ6Ir1VAdlM.jpg",
+    video: "/insta/videos/DQ6Ir1VAdlM.mp4",
     url: "https://www.instagram.com/debashishbordoloi007/reel/DQ6Ir1VAdlM/",
     type: "reel",
-    alt: "Debashish Bordoloi Instagram reel",
+    alt: "Debashish Bordoloi Instagram reel video",
   },
 ];
 
@@ -199,10 +203,10 @@ export function InstagramFeedSection() {
           </div>
 
           {/* Profile Information */}
-          <div className="flex flex-col items-center sm:items-start gap-3 w-full font-mono text-sm">
+          <div className="flex flex-col items-center sm:items-start gap-3 w-full text-sm">
             {/* Username + Actions Row */}
             <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 w-full">
-              <span className="text-base md:text-lg font-semibold tracking-tight text-foreground font-sans">
+              <span className="text-base md:text-lg font-semibold tracking-tight text-foreground">
                 debashishbordoloi007
               </span>
               <a
@@ -261,7 +265,7 @@ export function InstagramFeedSection() {
         </div>
 
         {/* Content Tabs (matching Instagram) */}
-        <div className="border-t border-border flex justify-center items-center gap-10 md:gap-14 font-mono text-xs">
+        <div className="border-t border-border flex justify-center items-center gap-10 md:gap-14 text-xs">
           {/* Active Tab: POSTS */}
           <button
             type="button"
@@ -296,8 +300,8 @@ export function InstagramFeedSection() {
               key={post.id}
               type="button"
               onClick={() => setActivePhotoIndex(idx)}
-              className="group aspect-square relative overflow-hidden bg-muted/20 border border-border/40 focus:outline-none focus:ring-2 focus:ring-foreground cursor-pointer text-left w-full h-full block"
-              aria-label={`Open photo ${idx + 1} of ${instagramPosts.length}`}
+              className="group aspect-square relative overflow-hidden bg-muted/20 border border-border/40 focus:outline-none focus:ring-1 focus:ring-foreground cursor-pointer text-left w-full h-full block"
+              aria-label={`Open ${post.type === "reel" ? "video" : "photo"} ${idx + 1} of ${instagramPosts.length}`}
             >
               <Image
                 src={post.image}
@@ -310,7 +314,7 @@ export function InstagramFeedSection() {
               {/* Type Badge (Carousel / Reel) in top-right corner */}
               {post.type === "carousel" && (
                 <div
-                  className="absolute top-2 right-2 p-1 rounded-sm bg-black/50 text-white backdrop-blur-[2px]"
+                  className="absolute top-2 right-2 p-1 rounded-sm bg-black/60 text-white backdrop-blur-[2px]"
                   title="Carousel"
                 >
                   <svg
@@ -332,29 +336,24 @@ export function InstagramFeedSection() {
 
               {post.type === "reel" && (
                 <div
-                  className="absolute top-2 right-2 p-1 rounded-sm bg-black/50 text-white backdrop-blur-[2px]"
-                  title="Reel"
+                  className="absolute top-2 right-2 p-1.5 rounded-sm bg-black/60 text-white backdrop-blur-[2px] flex items-center justify-center"
+                  title="Reel Video"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <polygon points="6 3 20 12 6 21 6 3" />
-                  </svg>
+                  <Play className="h-3.5 w-3.5 fill-white" />
                 </div>
               )}
 
               {/* Subtle hover overlay */}
               <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                <span className="text-white text-xs font-mono font-medium flex items-center gap-1 bg-black/60 px-2 py-1 rounded backdrop-blur-xs">
-                  View
+                <span className="text-white text-xs font-medium flex items-center gap-1 bg-black/60 px-2.5 py-1 rounded backdrop-blur-xs">
+                  {post.video ? (
+                    <>
+                      <Play className="h-3 w-3 fill-white" />
+                      <span>Play</span>
+                    </>
+                  ) : (
+                    <span>View</span>
+                  )}
                 </span>
               </div>
             </button>
@@ -367,29 +366,37 @@ export function InstagramFeedSection() {
         <div
           role="dialog"
           aria-modal="true"
-          aria-label="Image viewer"
+          aria-label={activePost.video ? "Video player" : "Image viewer"}
           onClick={closeLightbox}
           className="fixed inset-0 z-50 flex flex-col items-center justify-between bg-black/90 backdrop-blur-md p-4 sm:p-6 transition-opacity animate-in fade-in duration-200"
         >
-          {/* Top Bar with counter & close button */}
+          {/* Top Bar with counter, type badge & close button */}
           <div
-            className="w-full max-w-4xl flex items-center justify-between text-white font-mono text-xs z-10"
+            className="w-full max-w-4xl flex items-center justify-between text-white text-xs z-10"
             onClick={(e) => e.stopPropagation()}
           >
-            <span className="text-white/80 bg-black/40 px-3 py-1 rounded-full border border-white/10">
-              {activePhotoIndex + 1} / {instagramPosts.length}
-            </span>
+            <div className="flex items-center gap-2">
+              <span className="text-white/80 bg-black/40 px-3 py-1 rounded-full border border-white/10 font-medium">
+                {activePhotoIndex + 1} / {instagramPosts.length}
+              </span>
+              {activePost.video && (
+                <span className="inline-flex items-center gap-1 text-white/80 bg-black/40 px-2.5 py-1 rounded-full border border-white/10 text-[11px] font-medium">
+                  <Play className="h-3 w-3 fill-white" />
+                  <span>Reel Video</span>
+                </span>
+              )}
+            </div>
             <button
               type="button"
               onClick={closeLightbox}
               className="p-2 text-white/80 hover:text-white bg-black/40 hover:bg-black/60 rounded-full border border-white/10 transition-colors cursor-pointer"
-              aria-label="Close image viewer"
+              aria-label="Close viewer"
             >
               <X className="h-5 w-5" />
             </button>
           </div>
 
-          {/* Centered Image Area with Prev/Next Controls */}
+          {/* Centered Media Area with Prev/Next Controls */}
           <div
             className="relative w-full max-w-4xl flex-1 flex items-center justify-center my-2 sm:my-4"
             onClick={(e) => e.stopPropagation()}
@@ -399,29 +406,46 @@ export function InstagramFeedSection() {
               type="button"
               onClick={showPrev}
               className="absolute left-2 sm:left-4 z-20 p-2.5 sm:p-3 text-white/80 hover:text-white bg-black/50 hover:bg-black/80 rounded-full border border-white/15 transition-all cursor-pointer hover:scale-105"
-              aria-label="Previous image"
+              aria-label="Previous item"
             >
               <ChevronLeft className="h-6 w-6" />
             </button>
 
-            {/* Main Full-Size Image (preserves aspect ratio) */}
-            <div className="relative w-full h-[65vh] sm:h-[75vh] max-h-[850px] flex items-center justify-center">
-              <Image
-                src={activePost.image}
-                alt={activePost.alt}
-                fill
-                priority
-                sizes="(max-width: 1024px) 90vw, 850px"
-                className="object-contain select-none"
-              />
-            </div>
+            {/* Main Media Player: Video if video source exists, else Image */}
+            {activePost.video ? (
+              <div className="relative w-full h-[65vh] sm:h-[75vh] max-h-[850px] flex items-center justify-center">
+                <video
+                  key={activePost.video}
+                  src={activePost.video}
+                  poster={activePost.image}
+                  controls
+                  autoPlay
+                  playsInline
+                  preload="metadata"
+                  className="max-h-full max-w-full rounded-md object-contain shadow-2xl bg-black"
+                >
+                  Your browser does not support HTML5 video playback.
+                </video>
+              </div>
+            ) : (
+              <div className="relative w-full h-[65vh] sm:h-[75vh] max-h-[850px] flex items-center justify-center">
+                <Image
+                  src={activePost.image}
+                  alt={activePost.alt}
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 90vw, 850px"
+                  className="object-contain select-none"
+                />
+              </div>
+            )}
 
             {/* Next Button */}
             <button
               type="button"
               onClick={showNext}
               className="absolute right-2 sm:right-4 z-20 p-2.5 sm:p-3 text-white/80 hover:text-white bg-black/50 hover:bg-black/80 rounded-full border border-white/15 transition-all cursor-pointer hover:scale-105"
-              aria-label="Next image"
+              aria-label="Next item"
             >
               <ChevronRight className="h-6 w-6" />
             </button>
@@ -429,14 +453,14 @@ export function InstagramFeedSection() {
 
           {/* Bottom Bar: Separate Link to View Original on Instagram */}
           <div
-            className="w-full max-w-4xl flex items-center justify-center text-xs font-mono z-10 pb-2"
+            className="w-full max-w-4xl flex items-center justify-center text-xs z-10 pb-2"
             onClick={(e) => e.stopPropagation()}
           >
             <a
               href={activePost.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-white/70 hover:text-white bg-black/40 hover:bg-black/60 px-4 py-1.5 rounded-full border border-white/10 transition-colors"
+              className="inline-flex items-center gap-1.5 text-white/70 hover:text-white bg-black/40 hover:bg-black/60 px-4 py-1.5 rounded-full border border-white/10 transition-colors font-medium"
             >
               <span>View original post on Instagram</span>
               <ExternalLink className="h-3 w-3" />
