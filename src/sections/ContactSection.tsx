@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Mail, Phone, MapPin, Clock, FileText, Copy, Check } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, Copy, Check } from "lucide-react";
 import personalEn from "@/data/personal.json";
 import personalAs from "@/data/personal_as.json";
 import { useLanguage } from "@/lib/LanguageContext";
@@ -33,7 +33,7 @@ export function ContactSection() {
   return (
     <section id="contact" className="w-full border-b border-border bg-background">
       <div className="mx-auto flex max-w-5xl flex-col border-x border-border md:flex-row font-mono text-sm">
-        <div className="flex w-full flex-col border-b border-border p-6 md:w-1/2 md:border-b-0 md:border-r gap-5">
+        <div className="flex w-full flex-col border-b border-border p-6 md:w-1/2 md:border-b-0 md:border-r gap-5 justify-center">
           <div className="flex items-center gap-3 text-muted-foreground group">
             <div className="flex h-7 w-7 items-center justify-center rounded-md border border-border bg-muted/20">
               <Mail className="h-3.5 w-3.5" />
@@ -64,6 +64,8 @@ export function ContactSection() {
               </button>
             </div>
           ) : null}
+        </div>
+        <div className="flex w-full flex-col p-6 md:w-1/2 gap-5 justify-center">
           <div className="flex items-center gap-3 text-muted-foreground">
             <div className="flex h-7 w-7 items-center justify-center rounded-md border border-border bg-muted/20">
               <MapPin className="h-3.5 w-3.5" />
@@ -74,23 +76,7 @@ export function ContactSection() {
             <div className="flex h-7 w-7 items-center justify-center rounded-md border border-border bg-muted/20">
               <Clock className="h-3.5 w-3.5" />
             </div>
-            <span className="text-foreground">{time || "Loading time..."}</span>
-          </div>
-        </div>
-        <div className="flex w-full flex-col p-6 md:w-1/2 gap-5 justify-center">
-          <a
-            href="/CV/DebashishBordoloi_CV.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 text-muted-foreground hover:text-foreground"
-          >
-            <div className="flex h-7 w-7 items-center justify-center rounded-md border border-border bg-muted/20">
-              <FileText className="h-3.5 w-3.5" />
-            </div>
-            <span className="text-foreground">{language === "EN" ? "Resume (PDF)" : "জীৱনপঞ্জী (PDF)"}</span>
-          </a>
-          <div className="flex items-center gap-3 text-muted-foreground">
-            <span className="text-foreground">{language === "EN" ? "Pronouns: He/him" : "সৰ্বনাম: তেওঁ"}</span>
+            <span className="text-foreground">{time || (language === "EN" ? "Loading time..." : "সময় লোড হৈ আছে...")}</span>
           </div>
         </div>
       </div>

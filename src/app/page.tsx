@@ -4,6 +4,7 @@ import { SocialsSection } from "@/sections/SocialsSection";
 import { SkillsSection } from "@/sections/SkillsSection";
 import { ProjectsSection } from "@/sections/ProjectsSection";
 import { AboutSection } from "@/sections/AboutSection";
+import { InstagramFeedSection } from "@/sections/InstagramFeedSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SkillsSection />
       <ProjectsSection />
       <AboutSection />
+      <InstagramFeedSection />
     </div>
   );
 }

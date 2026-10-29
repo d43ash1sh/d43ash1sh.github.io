@@ -37,8 +37,8 @@ export function AIChatbot() {
     if (q.includes("paper") || q.includes("research") || q.includes("publication") || q.includes("conference") || q.includes("jios")) {
       return `Debashish co-authored the peer-reviewed research paper:\n"Innovative host-based intrusion detection systems: Safeguarding networks in the digital Era" published in the Journal of Information and Optimization Sciences (JIOS, DOI: 10.47974/JIOS-1981).\nHe also presented "Browser-Based Data Leak Prevention System for Secure Web Interactions" at ICRTMC-2026 at Jamia Millia Islamia, New Delhi.`;
     }
-    if (q.includes("rea") || q.includes("audit") || q.includes("reverse engineer") || q.includes("apssb")) {
-      return `Debashish conducted a non-invasive architectural audit of administrative surfaces for apssb.online using REA v6.8.0 and Chrome DevTools Protocol (CDP), mapping route trees, crawler ingestion pipelines, and designing an enterprise RBAC remediation architecture.`;
+    if (q.includes("rea") || q.includes("audit") || q.includes("reverse engineer")) {
+      return `Debashish conducted a non-invasive architectural audit of administrative surfaces using REA v6.8.0 and Chrome DevTools Protocol (CDP), mapping route trees, crawler ingestion pipelines, and designing an enterprise RBAC remediation architecture.`;
     }
     if (q.includes("mcp") || q.includes("context7") || q.includes("stitch")) {
       return `Debashish develops tools with Model Context Protocol (MCP), including Context7 MCP for technical documentation retrieval, Stitch MCP for design workflows, and agent-native search servers.`;

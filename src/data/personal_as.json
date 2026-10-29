@@ -19,8 +19,7 @@
     "Databases & Storage": "PostgreSQL, Supabase, pgvector, SQL, Redis, SQLite",
     "Security & Research": "OWASP Top 10, REA (Reverse Engineer Anything), Vulnerability Assessment, Burp Suite, SSRF Defense",
     "Tools, MCP & Workflow": "Model Context Protocol (MCP), Context7, Stitch, Git, Playwright, Linux CLI, Postman",
-    "Cloud & Deployment": "Vercel, GitHub Pages, AWS S3, Google Cloud Platform",
-    "AI & Research": "AI-assisted Development, Source-grounded AI, Security Research, Research Writing"
+    "Cloud & Deployment": "Vercel, GitHub Pages, AWS S3, Google Cloud Platform"
   },
   "passion": [
     "সুৰক্ষিত ফুল-ষ্টেক ইঞ্জিনিয়াৰিং",
@@ -45,7 +44,7 @@
       "text": "কনফাৰেন্স প্ৰেজেন্টেচন: Browser-Based Data Leak Prevention System for Secure Web Interactions (ICRTMC-2026, Jamia Millia Islamia)"
     },
     {
-      "text": "প্ৰশাসনিক আর্কিটেকচাৰ আৰু ৰিভাৰ্ছ ইঞ্জিনিয়াৰিং অডিট (REA v6.8.0 & CDP ব্যৱহাৰ কৰি apssb.online অডিট)"
+      "text": "প্ৰশাসনিক আর্কিটেকচাৰ আৰু ৰিভাৰ্ছ ইঞ্জিনিয়াৰিং অডিট (REA v6.8.0 & CDP ব্যৱহাৰ কৰি)"
     },
     {
       "text": "API Penetration Testing - APIsec University",
@@ -61,10 +60,6 @@
     },
     {
       "text": "SQL and Relational Databases 101 - IBM"
-    },
-    {
-      "text": "ইনষ্টাগ্ৰামত কাৰিকৰী আৰু কনফাৰেন্স আপডেট (@debashishbordoloi007)",
-      "url": "https://www.instagram.com/debashishbordoloi007/p/DU2pvveAZB3/"
     }
   ],
   "education": [

@@ -19,8 +19,7 @@
     "Databases & Storage": "PostgreSQL, Supabase, pgvector, SQL, Redis, SQLite",
     "Security & Research": "OWASP Top 10, REA (Reverse Engineer Anything), Vulnerability Assessment, Burp Suite, SSRF Defense",
     "Tools, MCP & Workflow": "Model Context Protocol (MCP), Context7, Stitch, Git, Playwright, Linux CLI, Postman",
-    "Cloud & Deployment": "Vercel, GitHub Pages, AWS S3, Google Cloud Platform",
-    "AI & Research": "AI-assisted Development, Source-grounded AI, Security Research, Research Writing"
+    "Cloud & Deployment": "Vercel, GitHub Pages, AWS S3, Google Cloud Platform"
   },
   "passion": [
     "Secure Full-Stack Engineering",
@@ -45,7 +44,7 @@
       "text": "Conference presentation: Browser-Based Data Leak Prevention System for Secure Web Interactions (ICRTMC-2026, Jamia Millia Islamia)"
     },
     {
-      "text": "Administrative Architecture & Reverse Engineering Audit (apssb.online using REA v6.8.0 & CDP)"
+      "text": "Administrative Architecture & Reverse Engineering Audit (using REA v6.8.0 & CDP)"
     },
     {
       "text": "API Penetration Testing - APIsec University",
@@ -61,10 +60,6 @@
     },
     {
       "text": "SQL and Relational Databases 101 - IBM (Big Data University)"
-    },
-    {
-      "text": "Tech updates & conference journey on Instagram (@debashishbordoloi007)",
-      "url": "https://www.instagram.com/debashishbordoloi007/p/DU2pvveAZB3/"
     }
   ],
   "education": [
